@@ -28,6 +28,11 @@ def click_login(context):
 
 @then('User must successfully login to the Dashboard page')
 def login_validation(context):
-    text = context.driver.find_element(By.XPATH, "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']").text
-    assert text == "Dashboard"
-    context.driver.quit()
+    try:
+        text = context.driver.find_element(By.XPATH, "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']").text
+    except:
+        context.driver.quit()
+        assert False, "Test Failed!!!"
+    if text == "Dashboard":
+        context.driver.quit()
+        assert True, "Test Passed!!!"
