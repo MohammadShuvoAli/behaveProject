@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b5a887-dd67-4f87-8567-499022541320" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/features/steps/orangehrmLogoSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/orangehrmLogoSteps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/orangehrmlogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
