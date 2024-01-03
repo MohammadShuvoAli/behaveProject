@@ -1,5 +1,4 @@
-Feature OrangeHRM Logo
-  
+Feature: OrangeHRM Logo
   Scenario: Logo presence on OrangeHRM home Page
     Given launch chrome browser
     When open orange hrm homepage
