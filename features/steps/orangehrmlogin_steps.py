@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 @given('I launch Chrome browser')
 def step_impl(context):
     context.driver = webdriver.Chrome()
+    context.driver.maximize_window()
+    context.driver.implicitly_wait(10)
 
 
 @when('I open orange HRM Homepage')
@@ -15,8 +17,8 @@ def step_impl(context):
 
 @when('Enter username "{username}" and password "{password}"')
 def step_impl(context, username, password):
-    context.driver.find_element(By.XPATH, "//input[@placeholder='username']").send_keys(username)
-    context.driver.find_element(By.XPATH, "//input[@placeholder='password']").send_keys(password)
+    context.driver.find_element(By.XPATH, "//input[@placeholder='Username']").send_keys(username)
+    context.driver.find_element(By.XPATH, "//input[@placeholder='Password']").send_keys(password)
 
 
 @when('Click on login button')
@@ -26,6 +28,6 @@ def step_impl(context):
 
 @then('User must successfully login to theDashboard page')
 def step_impl(context):
-    text = context.driver.find_element(By.XPATH, "//*[@id='app']/div[1]/div[1]/header/div[1]/div[1]/span/h6").text
+    text = context.driver.find_element(By.XPATH, "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']").text
     assert text == "Dashboard"
     context.driver.quit()
