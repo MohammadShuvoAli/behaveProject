@@ -5,6 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b5a887-dd67-4f87-8567-499022541320" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/reports/007dea95-fb96-40c0-8556-650a91489176-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/08751648-3752-4c78-a861-aa13f75beb70-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/0d2a2d1d-1fd0-4f49-8623-0515d78411ef-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/0fe2f0a0-e90f-4de3-833a-7e85de833724-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/22fa4c7b-5ef4-4222-b19a-6200f3859ff9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/4f412213-34ae-4152-ad0a-e57cd148471c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/5d3a4014-2e40-4088-957c-f480d86121f5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/5e1a6bbe-825a-4dfd-9ae0-c41f474b72b9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/6621e917-e730-4728-9aa5-1dd74012e335-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/6e86b8f1-0986-4bc8-b80b-b026dcc0b77f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/73eaf3c1-786c-4692-a094-80d0cc314a09-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/8c3f6319-e558-481c-891c-2d23199ec429-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/90f2e6f8-19c9-41ca-8dd0-0e5afd248fd1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/93247a78-86a4-47be-9b3c-b6748e9346eb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/c9632f82-fe47-425e-9db1-9229b2cfd260-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/d13bf96d-d9ff-43fc-ae45-7a2c2caf4f09-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/d300d930-61c3-4ace-a0e1-4edf4880ca44-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/d64cbdb7-f5ad-4ca2-a941-8550da50e3e7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/db3c9541-dce0-49a2-a8ac-f5c6c2b3728f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/e8316182-1b56-4da6-a64b-1e57f308850c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/ecb02ba7-e1a1-4c16-ab95-99673aee1615-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/scenariobg.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/scenariobg.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/steps/scenariobg_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/scenariobg_steps.py" afterDir="false" />
     </list>
@@ -37,18 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.orangehrmLogoSteps.executor&quot;: &quot;Run&quot;,
-    &quot;Python.orangehrmlogin_steps.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.orangehrmLogoSteps.executor": "Run",
+    "Python.orangehrmlogin_steps.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.orangehrmlogin_steps">
     <configuration name="orangehrm_steps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="behaveProject" />
@@ -118,5 +141,8 @@
       <updated>1704265204380</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

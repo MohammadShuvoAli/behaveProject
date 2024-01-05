@@ -15,10 +15,10 @@ def open_application(context):
     context.driver.get("https://opensource-demo.orangehrmlive.com/")
 
 
-@when('Enter username "{username}" and password "{password}"')
-def enter_information(context, username, password):
-    context.driver.find_element(By.XPATH, "//input[@placeholder='Username']").send_keys(username)
-    context.driver.find_element(By.XPATH, "//input[@placeholder='Password']").send_keys(password)
+@when('Enter valid username and password')
+def enter_information(context):
+    context.driver.find_element(By.XPATH, "//input[@placeholder='Username']").send_keys("Admin")
+    context.driver.find_element(By.XPATH, "//input[@placeholder='Password']").send_keys("admin123")
 
 
 @when('click on login')
@@ -39,20 +39,27 @@ def login_validation(context):
 
 
 @when('navigate to search page')
-def step_impl(context):
+def search_page(context):
+    context.driver.find_element(By.XPATH, "//input[@placeholder='Search']").click()
     assert True, "Test Passed!!!"
 
 
 @then('search page should display')
-def step_impl(context):
-    assert True, "Test Passed!!!"
+def validate_search_page(context):
+    status = context.driver.find_element(By.XPATH, "//input[@placeholder='Search']").is_displayed()
+    assert status is True
 
 
-@when(u'navigate to advanced search page')
-def step_impl(context):
-    assert True, "Test Passed!!!"
+@when('navigate to advanced search page')
+def advanced_search_page(context):
+    context.driver.find_element(By.XPATH, "//li[1]//a[1]//span[1]").click()
 
 
 @then(u'advanced search page should display')
-def step_impl(context):
-    assert True, "Test Passed!!!"
+def validate_advanced_search_page(context):
+    text = context.driver.find_element(By.XPATH, "//h5[@class='oxd-text oxd-text--h5 oxd-table-filter-title']").text
+    if text == "System Users":
+        assert True, "Test Passed!!!"
+    else:
+        assert False, "Test Failed!!!"
+

@@ -3,7 +3,7 @@ Feature: OrangeHRM Login
   Background: common steps
     Given I launch browser
     When I open application
-    And Enter username "Admin" and password "admin123"
+    And Enter valid username and password
     And click on login
 
   Scenario: Login to HRM Application
