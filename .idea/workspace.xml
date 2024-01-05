@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b5a887-dd67-4f87-8567-499022541320" name="Changes" comment="" />
+    <list default="true" id="39b5a887-dd67-4f87-8567-499022541320" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/features/scenariobg.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/scenariobg.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/scenariobg_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/scenariobg_steps.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
